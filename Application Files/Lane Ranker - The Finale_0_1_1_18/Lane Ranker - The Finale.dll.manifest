@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Lane Ranker - The Finale.exe" version="0.1.1.18" publicKeyToken="3ace187f5f32d289" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="data_organizing_v2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17856">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GXGDPmudrThgpRNWrIvvr2LG6C12hNRztYr/hkodLr0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="data_organizing_v2.ico" size="69881">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wy5b/byZJuSuFesT9m4qPYd4F+wj8Vzk6U11/mCBOHE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EPPlus.dll" size="4255776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wb/Xevgoef8djFwzyR1j74XPaMjo9ExkEKr/KhdEOXc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EPPlus.Interfaces.dll" size="19960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>njkwrALEfS29dmTEkOHkjeq3CPEhiPQZvmuoPv/00wA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lane Ranker - The Finale.deps.json" size="11554">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cdPBywi+phquDmf/oU9VmB1Wk3n9q2ZBFz6P0C4QdLc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lane Ranker - The Finale.dll" size="2884032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fU5Dqr3RTtMdAk1ftKtmUmmF/jzvQmaFFaTMfmaNTOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lane Ranker - The Finale.exe" size="210880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Azt32lUer8Ctj8LZmEyETyN8A+9XNPnDW9CA9Ozg5is=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lane Ranker - The Finale.runtimeconfig.json" size="515">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ia0epcnCC2smZUfvJ8CuOEDKtWQtPCrt8GtwJiRWcd0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.Configuration.Abstractions.dll" size="27936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/vzbJnpzCZy5Dlr1a17yvKWb7ZdDObOmgQNSveI1N6Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.Configuration.dll" size="43800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tc2dosM2SlsgHOywyA4lIn0nukTZY0PSiU/47z/YFVA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.Configuration.FileExtensions.dll" size="27936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rPWJbQ80+hpDKVeXWEs4BcJHQ84l7odTju7IOwErv08=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.Configuration.Json.dll" size="26920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FeEmKIDyY4BqKAjXUGiHOWYjI7IMzZg1Ii//jDCJmko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.FileProviders.Abstractions.dll" size="22176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8IsfWXq7NkerboRCgt7XY+YHjb723VS52VbKQZ+sQv4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.FileProviders.Physical.dll" size="44808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n2cHbHmpU/UGjAeSEU+XIlJ8+hftdBTHP9FIM7/lmRg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.FileSystemGlobbing.dll" size="45848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7QhVtSLwm1qd27hd5iBCwl4H0QBECG2oYgyEXeQeRzw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.Primitives.dll" size="43680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RG/xbpA+dHlViBbiE6Ot7pocGtrWWlbYU4AbEJM+Kdc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.IO.RecyclableMemoryStream.dll" size="65968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YxpfxB35SY0DLAZV69DhIJQwzP++xVZn2JwlZrM4zMA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll" size="319784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2OS3M/uuwf4OgI/WORR58ZCxcN8D4wnF8H3IVEVEfSI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Security.Cryptography.Pkcs.dll" size="264864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4jUpOO1PZk93ClyY7wZ8sUUwRFbQFNLDEdclyVyKIak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Security.Cryptography.Xml.dll" size="198424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ENr+jgyVFlpUNc+r9VLZBbvOljYGE5O0yyUz8k2Iq0U=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MEA Data &amp; Organizing RWells Signature" issuerKeyHash="fd8268f66e28fc0a930cc233030b6689d3bd3701" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1Uz9Ub+PoRvq8Rw/jntFl8ZxLrrwT4Mxo6QlrjybOHo=</DigestValue></Reference></SignedInfo><SignatureValue>DhylhsQcrWNOn0BIfKNECPSIS10AWphmQvdIyfuD0Ag9FQF1bR4GmSW36YCv0wQ0UojF5yTH6fVxzNf9gexSUoCAvCyRk3njeWxqcgqHy0/wG7RAE4qqk6Op/FgCUDWmLBl6lfx+6o0c/sH/nKoyqRSKxo6m+azs6XKF9RLoCFbvKKzwH4iCDdw+DVwai+9xA7xEHtTkBC2pyyWaSL2QSOEedwPd70Q77MHLAArthJYt4+qayOyAoY8XGQpMcrY2XOPhNgSUhdX3dotJmooNTed4nI6+0B1s/VVs9IoHo5AF6UoyabmwcWYNAEM+NAxmAi+OB9FPo1iS3WpRq17E1Q==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vonx9v8bbHKAl3ggaff2IYiaijD6Xkb0G5ev0eQGxn9+8s6qsvoil8ux7//+my+U9QPVb5tG55Y0Tu8ApJt30GjnmzigRuICqm1nsVtSbSkpX7YTCzxLZRk39EE5YNhdujM08citfRw1xasKAe+s9+Q0SwZA2OmHLhW08QhITcXEwSKnPtkbEwmunIH7ZYRsBg6Xcw6uGRmsO9rk94wuTWs5+0TF0QskI/+AhtQc+eSPd+5IJgo8lGvIxyNq/V5TMugdeq8428kUOswnMeGz8RE7moRlXIABet04Qp+cgO0Yhdv4+dmsEOLDOes0v3NWRQvXEufRlHriL5cQiL9VJQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7a389b3cae25a4a331834ff0ba2e71c697457b8e3f1cf1ea1ba18fbf51fd4cd5" Description="" Url=""><as:assemblyIdentity name="Lane Ranker - The Finale.exe" version="0.1.1.18" publicKeyToken="3ace187f5f32d289" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MEA Data &amp; Organizing RWells Signature</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gEzfh9P7xdP90GB7H7rH5ev0e4Hnr/7k7cFvxWJL+Yw=</DigestValue></Reference></SignedInfo><SignatureValue>cawSVvI0m7oqN7TD2NBJCdUaZOKpMH00gI/0LnQCPGOq006fCb0aW3GedETRZZlNqYWQZaEv0iKOoWE5DYU9HiKcNH0m31bdqr6rzkUbq1MeIFRKXTDWhRVxts/YAFh8VZNcz6RYOG7duddoTSnlQRBfsulmvySopOsi/a5bwdXizbxj6CAE22PVvKndgcSmejzqbkXKB51mm79X717SeZ2QMaiQpXQ9c/YgTCrqJXPpy3pkKykm/py57gnAS4WOxdbbTmQUU/bMVElUU8yX/lAf8HFQjWx4TDoNz5ZgLnR4mSD8xe9uuGVMQtWY+uVc86ZYSzotvHkpdGCy7oq6sg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vonx9v8bbHKAl3ggaff2IYiaijD6Xkb0G5ev0eQGxn9+8s6qsvoil8ux7//+my+U9QPVb5tG55Y0Tu8ApJt30GjnmzigRuICqm1nsVtSbSkpX7YTCzxLZRk39EE5YNhdujM08citfRw1xasKAe+s9+Q0SwZA2OmHLhW08QhITcXEwSKnPtkbEwmunIH7ZYRsBg6Xcw6uGRmsO9rk94wuTWs5+0TF0QskI/+AhtQc+eSPd+5IJgo8lGvIxyNq/V5TMugdeq8428kUOswnMeGz8RE7moRlXIABet04Qp+cgO0Yhdv4+dmsEOLDOes0v3NWRQvXEufRlHriL5cQiL9VJQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDMjCCAhqgAwIBAgIQc1E9P4ejv6hMRAfcK/2wEzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDDCZNRUEgRGF0YSAmIE9yZ2FuaXppbmcgUldlbGxzIFNpZ25hdHVyZTAeFw0yNTA1MDIxMzA3NDBaFw0yNjA1MDIxMzI3NDBaMDExLzAtBgNVBAMMJk1FQSBEYXRhICYgT3JnYW5pemluZyBSV2VsbHMgU2lnbmF0dXJlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvonx9v8bbHKAl3ggaff2IYiaijD6Xkb0G5ev0eQGxn9+8s6qsvoil8ux7//+my+U9QPVb5tG55Y0Tu8ApJt30GjnmzigRuICqm1nsVtSbSkpX7YTCzxLZRk39EE5YNhdujM08citfRw1xasKAe+s9+Q0SwZA2OmHLhW08QhITcXEwSKnPtkbEwmunIH7ZYRsBg6Xcw6uGRmsO9rk94wuTWs5+0TF0QskI/+AhtQc+eSPd+5IJgo8lGvIxyNq/V5TMugdeq8428kUOswnMeGz8RE7moRlXIABet04Qp+cgO0Yhdv4+dmsEOLDOes0v3NWRQvXEufRlHriL5cQiL9VJQIDAQABo0YwRDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFP2CaPZuKPwKkwzCMwMLZonTvTcBMA0GCSqGSIb3DQEBCwUAA4IBAQAoj/kiXTc5Ildl0vPU1KLwvsmyAfxm/R5PvN/ft5UiDS2g65VVtoGE0SWoVGesGsMklZWvWrhipMZdo8efQ51DlBfq8FTGBQNDHDu/I1KyjSed4y/UiQZWyhZ/ZPXoZ/WEmRn8XU6vT8qnk8aVHh2P5F2x/SO1rmiOX2HndvcaWEpf8+Y3RHp4xl86/O5uVCaB45vZJYkuKoOOJLyNyfpsPvQmf8bS8LB568lq8SCWfMwMDlwyu3M4MC4csIcR8DlmXBfhg13E6synZjgy5EAYn6tjBejTWyNTIa4S38Q6rLcThoQ4Bgj/olhijZYRFZ/+g5CbKng7brhElN95l1Jb</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
